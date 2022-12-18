@@ -1,8 +1,8 @@
 # 概要
 
-環境：iOS
-言語：Dart
-フレームワーク：Flutter
+* 環境：iOS
+* 言語：Dart
+* フレームワーク：Flutter
 
 # DEMO
 
@@ -11,11 +11,12 @@ https://user-images.githubusercontent.com/96103285/208285383-978e3e5d-d165-4d39-
 # 設計思想
 
 ###### 状態管理
-・Riverpod
-・Freezed
-・Hooks
+* Riverpod
+* Freezed
+* Hooks
 
 ###### フォルダ構成
+```bash
 Lib
 |-component // コンポーネント化したWidget
 |-model // Freezedで作成したimmutableなモデルクラス
@@ -24,6 +25,7 @@ Lib
 app.dart
 importer.dart
 main.dart
+```
 
 # Author
 
